@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#075">
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/cl"
+        android:scaleType="fitStart"
+        android:src="@mipmap/current"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="20dp"
+	android:onClick="current" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/locatee"
+        android:scaleType="fitStart"
+        android:src="@mipmap/locate"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="20dp"
+        android:onClick="locate" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/famos"
+        android:scaleType="fitStart"
+        android:src="@mipmap/famos1"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="20dp"
+        android:onClick="onfamosvp"/>
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/bwtt"
+        android:scaleType="fitStart"
+        android:src="@mipmap/bestway"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="20dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/bnr"
+        android:scaleType="fitStart"
+        android:src="@mipmap/bus"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="20dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/hotel"
+        android:scaleType="fitStart"
+        android:src="@mipmap/resto"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="20dp"
+        android:onClick="tHotel" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/rh"
+        android:scaleType="fitStart"
+        android:src="@mipmap/bnr1"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="20dp" />
+
+
+</LinearLayout>
